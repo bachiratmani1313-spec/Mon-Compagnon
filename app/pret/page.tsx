@@ -18,9 +18,17 @@ export default function PretPage() {
           </p>
         </div>
       </div>
-      <a href="https://imamvirtuel.com" target="_blank" className="bg-emerald-600 text-white px-10 py-5 rounded-full text-xl font-bold shadow-lg flex items-center">
+      
+      {/* Mise à jour du lien ci-dessous */}
+      <a 
+        href="https://limamvirtuel.com/app" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="bg-emerald-600 text-white px-10 py-5 rounded-full text-xl font-bold shadow-lg flex items-center hover:bg-emerald-700 transition-colors"
+      >
         Ouvrir le guide <ArrowRight className="ml-2" />
       </a>
+      
       <Link href="/" className="mt-8 text-gray-400 text-sm underline">Retour à l'accueil</Link>
     </div>
   );
